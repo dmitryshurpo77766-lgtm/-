@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mercedes C-Class</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+
+<body>
+
+<header>
+  <h1>Mercedes C-Class</h1>
+
+<a href="cart.html" class="cart">
+  🛒 Корзина
+</a>
+</header>
+
+<section class="details">
+
+  <img class="details-image"
+  src="цс.jpg">
+
+  <div class="details-info">
+
+    <h2>Описание</h2>
+
+    <p>
+      Mercedes C-Class — современный седан
+      с высоким уровнем комфорта и технологий.
+    </p>
+
+    <h2>Характеристики</h2>
+
+    <ul>
+      <li>Двигатель: 2.0 Turbo</li>
+      <li>Мощность: 255 л.с.</li>
+      <li>Разгон 0-100: 6 сек</li>
+      <li>Макс скорость: 250 км/ч</li>
+    </ul>
+
+    <h2>Цена</h2>
+
+    <div class="big-price">
+      $45,000
+    </div>
+
+   <button class="btn"
+onclick="addToCart(
+'Mercedes C-Class',
+45000,
+'цс.jpg'
+)">
+  Добавить в корзину
+</button>
+
+  </div>
+
+</section>
+
+</body>
+</html>

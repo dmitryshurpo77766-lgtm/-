@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mercedes G-Class</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+
+<body>
+
+<header>
+  <h1>Mercedes G-Class</h1>
+
+<a href="cart.html" class="cart">
+  🛒 Корзина
+</a>
+</header>
+
+<section class="details">
+
+  <img class="details-image"
+  src="гел.jpg">
+
+  <div class="details-info">
+
+    <h2>Описание</h2>
+
+    <p>
+      Mercedes G-Class — роскошный внедорожник
+      с мощным двигателем и полным приводом.
+    </p>
+
+    <h2>Характеристики</h2>
+
+    <ul>
+      <li>Двигатель: 4.0 V8</li>
+      <li>Мощность: 577 л.с.</li>
+      <li>Разгон 0-100: 4.5 сек</li>
+      <li>Полный привод</li>
+    </ul>
+
+    <h2>Цена</h2>
+
+    <div class="big-price">
+      $140,000
+    </div>
+
+<button class="btn"
+onclick="addToCart(
+'Mercedes G-Class',
+140000,
+'гел.jpg'
+)">
+  Добавить в корзину
+</button>
+
+  </div>
+
+</section>
+
+</body>
+</html>
